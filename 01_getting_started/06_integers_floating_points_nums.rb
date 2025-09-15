@@ -14,3 +14,7 @@ puts 3.14           # Imprime 3.14
 puts 0.50           # Imprime 0.5 (Ruby elimina ceros innecesarios al final)
 puts( -10.99  )       # Imprime -10.99
 puts (-0.93 )         # Imprime -0.93
+
+# En Ruby, los guiones bajos en números (_) son ignorados por el intérprete y solo sirven para hacer que los números grandes sean más fáciles de leer.
+# puts 0.50 se imprimirá como 0.5, porque Ruby no muestra ceros innecesarios en números decimales.
+# Los números negativos funcionan igual que los positivos, simplemente con un - delante.
