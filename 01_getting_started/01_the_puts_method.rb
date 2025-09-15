@@ -1,3 +1,5 @@
+# con el método puts genero un string y un salto de línea al final
+# 
 puts 3 + 5
 puts 1
 puts 1 + 2
