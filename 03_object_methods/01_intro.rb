@@ -12,3 +12,6 @@ expression = "TOTALLY DIFFERENT"
 
 # Convierte el contenido de la variable expression a minúsculas y lo imprime
 puts expression.downcase       # => "totally different"
+
+puts "boris deddof".capitalize         # => "Boris Deddof"
+puts "hELLO WORLD".capitalize   # => "Hello world"
