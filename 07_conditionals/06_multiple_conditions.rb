@@ -15,3 +15,16 @@ if username == "rubydev1" && password == "topsecret"
 else
   puts "Incorrect, no access for you!"  # Si falla cualquiera de las dos condiciones
 end
+
+# OR
+# ||
+
+entree = "Steak"
+price = 49.99
+
+food_is_delicious = entree == "Steak"
+meal_is_affordable = price < 29.99
+
+if food_is_delicious || meal_is_affordable
+  puts "At least one of the conditions is true, purchasing meal"
+end
