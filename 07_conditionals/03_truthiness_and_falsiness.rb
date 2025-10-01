@@ -17,6 +17,7 @@ if 3.14
   puts "Will this print?"         # ✅ Sí se imprime (números decimales son truthy)
 end
 
-if "hello"
-  puts "Will this print?"         # ✅ Sí se imprime (cadenas no vacías son truthy)
+value = "hello"
+if value
+  puts "Will this print?"
 end
