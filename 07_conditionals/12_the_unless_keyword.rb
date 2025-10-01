@@ -1,25 +1,21 @@
-# unless
-# execute if a condition is false
-# Definition: "except if" --> "run this code except if a condition is true"
+password = "nonsense"  # contraseña que tenemos en la variable
 
-password = "nonsense"
-
-# actual password is "whiskers"
-
+# Versión usando if/else (comentada)
 # if password != "whiskers"
 #   puts "Incorrect password"
 # else
 #   puts "Welcome to the system"
 # end
 
-unless password == "whiskers" # execute the section of code is condition is false
+# Versión usando unless:
+# Ejecuta el bloque solo si la condición ES falsa
+unless password == "whiskers"  
+  # Aquí el código se ejecuta si password NO es "whiskers"
   puts "Incorrect password"
-  # This code will run unless the condition above is valid
 end
 
-# Check if the user's password does NOT include the letter "a"
-# include?
-
-unless password.include?("a") # execute if false
+# Otro ejemplo con método include?
+# Ejecuta si password NO incluye la letra "a"
+unless password.include?("a")
   puts "This will run UNLESS password does include 'a'"
 end
